@@ -1,0 +1,214 @@
+/*
+      |-----------------------------------------------------|
+      | General
+      |-----------------------------------------------------|
+*/
+
+body {
+    margin: 0 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #434E5E;
+    background: #e9e9e9;
+
+}
+
+/*
+      |-----------------------------------------------------|
+      | links profile
+      |-----------------------------------------------------|
+*/
+
+.link-on-profile,
+a.link-on-profile {
+    color: fuchsia;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    /* font-style: italic; */
+}
+
+.link-on-profile:hover,
+a.link-on-profile:hover {
+    color: grey;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    /* font-style: italic; */
+}
+
+.link-on-resume,
+a.link-on-resume {
+    color: rgb(67, 78, 94);
+    text-decoration: underline;
+}
+
+/*
+      |-----------------------------------------------------|
+      | links footer
+      |-----------------------------------------------------|
+*/
+
+.link-on-bg,
+a.link-on-bg {
+    color: rgba(28, 235, 28, 0.6);
+    /* font-style: italic; */
+}
+
+.link-on-bg:hover,
+a.link-on-bg:hover {
+    color: white;
+}
+
+.bg-black {
+    background: black;
+}
+
+/*
+      |-----------------------------------------------------|
+      | navigation bar
+      |-----------------------------------------------------|
+*/
+
+.top-bar {
+    box-shadow: 0em .1em .52em gray;
+}
+
+.theme-bg-primary-darken {
+    background-color: fuchsia;
+}
+
+.navbar ul {
+    text-transform: uppercase;
+}
+
+/*
+      |-----------------------------------------------------|
+      | Profile section
+      |-----------------------------------------------------|
+*/
+
+.profile-image {
+    max-width: 240px;
+    max-height: 240px;
+}
+
+.text-fuchsia {
+    color: fuchsia !important;
+}
+
+.sb-name {
+    text-transform: capitalize;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+.section-intro {
+    max-width: 780px;
+}
+
+.skills-icon-holder {
+    background: fuchsia;
+    width: 80px;
+    height: 80px;
+    padding-top: 1.25rem;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.profile-small {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-outline-fuchsia {
+    color: fuchsia;
+    background-color: transparent;
+    background-image: none;
+    border-color: fuchsia;
+}
+
+.btn-outline-fuchsia:hover {
+    color: #fff;
+    background-color: fuchsia;
+    border-color: fuchsia;
+}
+
+.btn-outline-fuchsia.disabled,
+.btn-outline-fuchsia:disabled {
+    color: fuchsia;
+    background-color: transparent;
+}
+
+.btn-outline-fuchsia:not(:disabled):not(.disabled):active,
+.btn-outline-fuchsia:not(:disabled):not(.disabled).active,
+.show>.btn-outline-fuchsia.dropdown-toggle {
+    color: #fff;
+    background-color: fuchsia;
+    border-color: fuchsia;
+}
+
+.btn-outline-fuchsia:not(:disabled):not(.disabled):active:focus,
+.btn-outline-fuchsia:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-fuchsia.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(249, 132, 239, 0.5);
+}
+
+.resume-wrapper {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.resume-wrapper-inner {
+    max-width: 1000px;
+}
+
+
+
+
+
+
+
+/*
+      |-----------------------------------------------------|
+      | Media Query
+      |-----------------------------------------------------|
+*/
+
+@media (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+
+    .col-lg-4 {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+}
